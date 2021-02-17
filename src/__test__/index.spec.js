@@ -1,6 +1,6 @@
 /* eslint-disable max-len,object-curly-newline */
 const nock = require('nock');
-const { get, post, RequestError } = require('../extensible-request-promise-node');
+const { get, post, RequestError } = require('../index');
 const { STATUS_CODES } = require('http');
 
 /**

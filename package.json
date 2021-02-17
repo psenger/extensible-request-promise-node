@@ -15,7 +15,6 @@
     "coverage": "jest --coverage --verbose",
     "test": "jest --ci",
     "build": "rollup -c",
-    "ci": "npm install",
     "deploy": "gatsby build --prefix-paths && gh-pages -d doc",
     "dev": "rollup -c -w"
   },

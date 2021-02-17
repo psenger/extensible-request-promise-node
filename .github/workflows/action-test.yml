@@ -1,5 +1,4 @@
 name: Node.js Tests
-description: Run tests on a variety of versions of node
 
 on:
   pull_request:
